@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    --pink: rgb(247,25,98);
+    --overlay: #040911;
+    --gray-dark: #4D5E77;
+    --white: #FAFAFA;
+
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+}
+
+body, button, input{
+    font-size: clamp(14px, 1.6rem, 2vw);
+
+    font-family: 'Poppins';
+}
+
+.content{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+main{
+    margin-top: -12rem;
+}
+
+.background-one{
+    background-image: url(/assets/black-grunge.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-one-img{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 0 0;
+}
+
+.countdown{
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+    padding: 0 0 auto;
+}
+
+.countdown h1{
+    font-weight: 200;
+    font-size: calc(10px + 5vw);
+    margin: 20px;
+    
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+.countdown p{
+    font-size: 30px;
+}
+
+.message{
+    background-image: url(/assets/black-grunge.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    padding: 200px 0 0 0;
+    color: var(--pink);
+}
+
+.message h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+    font-weight: 200;
+    padding: 50px 0 0 0;
+    text-shadow: 0 0 2px var(--white);
+}
+
+.message h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 40px;
+}
+
+.background-two{
+    background-image: url(/assets/black-grunge.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.4rem;
+    padding: 200px 0 0;
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+}
+
+input, button{
+    border-radius: 0.8rem;
+    height: 5rem;
+}
+
+form input{
+    background: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    max-width: 450px;
+}
+
+input{
+    display: flex;
+
+    background: var(--white);
+    border: 0.2rem solid var(--gray-dark);
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+}
+
+button{
+    
+    font-weight: 500;
+    line-height: 0;
+    width: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 20px auto;
+
+    background: var(--pink);
+    color: white;
+
+    transition: filter 0.2s;
+
+    cursor: pointer;
+}
+
+button:hover{
+    filter: brightness(1.2);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--pink);
+    width: 100%;
+    height: 60px;
+}
+
+.img-footer{
+    height: 40px;
+    padding: 5px;
+}
+
+.name{
+    padding: 20px;
+    font-size: 20px;
+}
+

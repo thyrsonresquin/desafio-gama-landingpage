@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Plan.t</title>
+        <link rel="shortcut icon" href="/assets/plantar.png">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--FONTE-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="home" class="content"> 
+            <main>
+                <div>
+                    <section class="background-one">
+                        <img class="background-one-img" src="/assets/logo-black.svg" alt="Logo">
+                        <div class="countdown">
+                            <div>
+                                <h1 id="dias">00</h1>
+                                <p>D</p>
+                            </div>
+                            <div>
+                                <h1 id="horas">00</h1>
+                                <p>H</p>
+                            </div>
+                            <div>
+                                <h1 id="minutos">00</h1>
+                                <p>M</p>
+                            </div>
+                            <div>
+                                <h1 id="segundos">00</h1>
+                                <p>S</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="message">
+                        <h3>PARE DE PEGAR MUDINHAS E COMPRE SUAS PLANTINHAS...</h3>
+                        <h1>COM ATÉ 80% OFF</h1>
+                    </section>
+                    <section class="background-two">
+                        <h2>Cadastre-se aqui para receber as ofertas!</h2>
+                        <form class="form-container" action="">
+                            <label class="sr-only" for="name">Digite seu nome</label>
+                            <input class="input-name" type="text" id="name" placeholder="Digite seu nome">
+                            <label class="sr-only" for="email">Digite seu e-mail</label>
+                            <input class="input-name" type="email" id="email" placeholder="Digite seu e-mail">
+                            <button id="bt-enviar" onclick="salvarForm()">
+                                Cadastrar
+                            </button>
+                        </form>
+                    </section>
+                    <footer>
+                        <h4 class="name">&copy;Thyrson Resquin</h4>
+                        <a class="footer-link" href="https://github.com/thyrsonresquin">
+                            <img class="img-footer" src="./assets/github.png" alt="GitHub">
+                        </a>
+                        <a class="footer-link" href="https://www.linkedin.com/in/thyrson-resquin/">
+                            <img class="img-footer" src="./assets/linkedin.png" alt="Linkedin">
+                        </a>
+                        
+                    </footer>
+                </div>
+            </main>
+            <script src="./cont.js"></script>
+            <script src="./local.js"></script>
+        </div>
+    </body>
+</html>
