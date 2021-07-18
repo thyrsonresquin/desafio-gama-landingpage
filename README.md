@@ -5,6 +5,6 @@ Repositório do primeiro desafio do programa Hiring Coders#2, criação de uma l
 ## Autor
 [Thyrson Resquin](https://www.linkedin.com/in/thyrson-resquin/)
 
-## Vercel (Hospedagem)
+## Hospedagem (Vercel)
 [Plan.t Black Friday](https://desafio-gama-landingpage.vercel.app/)
 
